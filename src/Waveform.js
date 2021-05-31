@@ -7,6 +7,8 @@ export default function Waveform({props}) {
     const [dataArray, setDataArray] = useState();
     const [init, setInit] = useState(false); 
     const canvasRef = useRef(null);
+
+    const running = false;
   
     const clear = (context) => {
       context.fillStyle = 'rgb(255, 255, 0)';
@@ -59,7 +61,7 @@ export default function Waveform({props}) {
     }, []);
   
     useEffect(() => {
-      if(init && dataArray) {
+      if(init && dataArray && running) {
         draw();
       }
     }, [dataArray]);
