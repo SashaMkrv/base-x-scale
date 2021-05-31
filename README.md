@@ -14,6 +14,7 @@ In theory, there is a lovely oscillator hanging out (which doesn't do anything u
 - [ ] get those fields that should do things doing things
 - [ ] fix the oscillator canvas bonanza
 - [ ] clickable keys
+- [ ] what's up with those 3+ note chord dead keys
 
 ## Might-dos?
 ### Really they're all might dos at this point, huh.
